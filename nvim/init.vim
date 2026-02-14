@@ -94,6 +94,9 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
   " Automatically adds 'end' in ruby for def/if/etc
   Plug 'tpope/vim-endwise'
 
+  " Toggle Ruby blocks between do/end and {} with 'b'
+  Plug 'jgdavey/vim-blockle'
+
   " Highlight whitespace
   Plug 'ntpeters/vim-better-whitespace'
 

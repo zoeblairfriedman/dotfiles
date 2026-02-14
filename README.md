@@ -61,6 +61,7 @@ A well-tuned Neovim configuration optimized for fullstack development with Ruby 
 - `cs"'` - Change surrounding quotes (vim-surround)
 - `gS` - Split one-liner into multi-line
 - `gJ` - Join multi-line into one-liner
+- `b` - Toggle Ruby block style between `do/end` and `{}`
 - `,f` - Format selected code
 - `=` - Auto-indent (with selection)
 
@@ -88,6 +89,7 @@ A well-tuned Neovim configuration optimized for fullstack development with Ruby 
 | **nerdtree**              | File explorer sidebar                 |
 | **delimitMate**           | Auto-close brackets/quotes            |
 | **vim-endwise**           | Auto-add `end` in Ruby                |
+| **vim-blockle**           | Toggle Ruby blocks between do/end and {} |
 | **vim-better-whitespace** | Highlight trailing whitespace         |
 | **vim-polyglot**          | Language syntax support               |
 | **vim-rails**             | Rails-specific helpers                |
